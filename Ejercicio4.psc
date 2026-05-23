@@ -23,8 +23,8 @@ Algoritmo Ejercicio4
     FinPara
     
     promedio <- suma / 7
-    Escribir "El promedio diario de gasto es: $", promedio
-    Escribir "- DÍAS CON GASTOS POR ENCIMA DEL PROMEDIO -"
+    Escribir "El promedio diario es: $", promedio
+    Escribir "**CON GASTOS POR ENCIMA DEL PROMEDIO **"
     
     Para i <- 1 Hasta 7 Hacer
         Si gastodiario[i] > promedio Entonces
